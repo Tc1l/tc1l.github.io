@@ -1,0 +1,96 @@
+.container {
+			display: flex;
+			flex-wrap: wrap;
+		}	
+		.container > div {
+			flex: 1;
+			margin: 0px;
+			text-align: center;
+			cursor: pointer;
+			font-size: 10px;
+			font-family: sans-serif;
+			background-color: #181a1b;
+			color: #6e6e73;
+		}
+	
+.Impressum {
+	background-color: #181a1b;
+	color: #6e6e73;
+	font-size: 15px;
+}
+
+.Name {
+	background-color: #181a1b;
+	color: #6e6e73;
+	font-size: 20px;
+}	
+
+.textbox {
+	background-color: #181a1b;
+	color: #6e6e73;
+	font-size: 30px;
+	text-align: left
+}
+
+.text {
+	display: inline-block; 
+	text-align: left;
+	flex-wrap: fixed;
+}
+
+.index {
+	display: inline-block; 
+	text-align: left;
+	flex-wrap: fixed;
+}
+
+.bild {
+	object-fit: cover;
+	width: 2500px;
+	margin: 10px;
+	height: 450px;
+}
+
+.bild2 {
+	object-fit: cover;
+	width: 720px;
+	margin: 10px;
+	height: 480px;
+}
+
+.image-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: transparent;
+	color: #FFD500;
+	font-size: 150px;
+	font-family: Bebas Neue;
+	filter: brightness(100%);
+}
+	
+.image {
+	position: relative;
+	text-align: center;
+	color: white;
+	filter: brightness(70%);
+}
+.imagegeschichte {
+	position: relative;
+	text-align: center;
+	color: white;
+	filter: brightness(85%);
+}
+	
+.headline {
+	font-family: Bebas Neue;
+	color: white;
+	filter: brightness(85%);
+}
+body {
+	background-color: #131516;
+	font-family: sans-serif;
+	color: #6e6e73;
+	text-align: center;
+}
