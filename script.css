@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url("Font/BebasNeue-Regular.ttf");
+}
 .container {
 			display: flex;
 			flex-wrap: wrap;
@@ -14,20 +18,20 @@
 		}
 	
 .Impressum {
-	background-color: #181a1b;
-	color: #6e6e73;
+	background-color: rgb(15, 17, 17);
+	color: rgb(161, 153, 141);
 	font-size: 15px;
 }
 
 .Name {
-	background-color: #181a1b;
-	color: #6e6e73;
+	background-color: rgb(15, 17, 17);
+	color: rgb(161, 153, 141);
 	font-size: 20px;
 }	
 
 .textbox {
-	background-color: #181a1b;
-	color: #6e6e73;
+	background-color: rgb(15, 17, 17);
+	color: rgb(161, 153, 141);
 	font-size: 30px;
 	text-align: left
 }
@@ -68,7 +72,7 @@
 	background-color: transparent;
 	color: #FFD500;
 	font-size: 150px;
-	font-family: Bebas Neue;
+	font-family: "Bebas Neue";
 	filter: brightness(100%);
 }
 	
@@ -86,7 +90,7 @@
 }
 	
 .headline {
-	font-family: Bebas Neue;
+	font-family: Helvetica;
 	color: white;
 	filter: brightness(85%);
 }
@@ -95,9 +99,9 @@
 }
 
 body {
-	background-color: #131516;
+	background-color: rgb(15, 17, 17);
 	font-family: sans-serif;
-	color: #6e6e73;
+	color: rgb(161, 153, 141);
 	text-align: center;
 }
 
@@ -109,7 +113,7 @@ body {
 	font-size: 10px;
 	font-family: sans-serif;
 	background-color: #181a1b;
-	color: #6e6e73;
+	color: rgb(161, 153, 141);
 }
 .info{
 	font-family: Helvetica;
@@ -118,7 +122,7 @@ body {
 	text-align: left;
 	font-size: 10px;
 	font-family: sans-serif;
-	color: #6e6e73;
+	color: rgb(161, 153, 141);
 }
 .Reviews{
 	font-size: 15px;
